@@ -8,13 +8,13 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li className="flex items-center gap-2">
                                 <span>Email:</span>
-                                <a href="mailto:example@email.com" className="hover:text-blue-400">
+                                <a href="mailto:example@email.com" className="hover:text-[#845EC2]">
                                     example@email.com
                                 </a>
                             </li>
                             <li className="flex items-center gap-2">
                                 <span>Phone:</span>
-                                <a href="tel:+82-10-xxxx-xxxx" className="hover:text-blue-400">
+                                <a href="tel:+82-10-xxxx-xxxx" className="hover:text-[#845EC2]">
                                     +82-10-xxxx-xxxx
                                 </a>
                             </li>
@@ -24,10 +24,10 @@ const Footer = () => {
                         <h3 className="text-xl font-bold mb-4 text-white">Links</h3>
                         <ul className="space-y-2">
                             <li>
-                                <a href="#profile" className="hover:text-blue-400">Profile</a>
+                                <a href="#profile" className="hover:text-[#845EC2]">Profile</a>
                             </li>
                             <li>
-                                <a href="#projects" className="hover:text-blue-400">Projects</a>
+                                <a href="#projects" className="hover:text-[#845EC2]">Projects</a>
                             </li>
                         </ul>
                     </div>
@@ -35,10 +35,17 @@ const Footer = () => {
                         <h3 className="text-xl font-bold mb-4 text-white">Social</h3>
                         <ul className="space-y-2">
                             <li>
-                                <a href="#" className="hover:text-blue-400">Instagram</a>
+                                <a
+                                    href="https://www.instagram.com/seung_mile"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-[#845EC2]"
+                                >
+                                    Instagram
+                                </a>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-blue-400">LinkedIn</a>
+                                <a href="#" className="hover:text-[#845EC2]">LinkedIn</a>
                             </li>
                         </ul>
                     </div>
